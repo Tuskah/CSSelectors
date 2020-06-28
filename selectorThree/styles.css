@@ -1,0 +1,21 @@
+a {
+    color: orange;
+}
+
+a:visited {
+    color:green;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+div p::first-line {
+    font-size: 150%;
+    color:red;
+}
+
+tr > td {
+    background-color: #333;
+    color: white;
+}
